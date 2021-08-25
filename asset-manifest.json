@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/deepak032002.github.io/kbcGame/static/css/main.ed21ea32.chunk.css",
+    "main.js": "/deepak032002.github.io/kbcGame/static/js/main.cb42a270.chunk.js",
+    "main.js.map": "/deepak032002.github.io/kbcGame/static/js/main.cb42a270.chunk.js.map",
+    "runtime-main.js": "/deepak032002.github.io/kbcGame/static/js/runtime-main.174ea61f.js",
+    "runtime-main.js.map": "/deepak032002.github.io/kbcGame/static/js/runtime-main.174ea61f.js.map",
+    "static/css/2.818011ed.chunk.css": "/deepak032002.github.io/kbcGame/static/css/2.818011ed.chunk.css",
+    "static/js/2.289b2eb2.chunk.js": "/deepak032002.github.io/kbcGame/static/js/2.289b2eb2.chunk.js",
+    "static/js/2.289b2eb2.chunk.js.map": "/deepak032002.github.io/kbcGame/static/js/2.289b2eb2.chunk.js.map",
+    "static/js/3.bdb642db.chunk.js": "/deepak032002.github.io/kbcGame/static/js/3.bdb642db.chunk.js",
+    "static/js/3.bdb642db.chunk.js.map": "/deepak032002.github.io/kbcGame/static/js/3.bdb642db.chunk.js.map",
+    "index.html": "/deepak032002.github.io/kbcGame/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/deepak032002.github.io/kbcGame/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.ed21ea32.chunk.css.map": "/deepak032002.github.io/kbcGame/static/css/main.ed21ea32.chunk.css.map",
+    "static/js/2.289b2eb2.chunk.js.LICENSE.txt": "/deepak032002.github.io/kbcGame/static/js/2.289b2eb2.chunk.js.LICENSE.txt",
+    "static/media/gameMusic.892d38d2.mp3": "/deepak032002.github.io/kbcGame/static/media/gameMusic.892d38d2.mp3",
+    "static/media/kbcLogo1.fcaa96b1.png": "/deepak032002.github.io/kbcGame/static/media/kbcLogo1.fcaa96b1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.174ea61f.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.289b2eb2.chunk.js",
+    "static/css/main.ed21ea32.chunk.css",
+    "static/js/main.cb42a270.chunk.js"
+  ]
+}
