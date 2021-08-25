@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+:root {
+  --bg_color--: linear-gradient(
+    135deg,
+    rgba(0, 33, 255, 1) 23%,
+    rgba(34, 5, 136, 1) 51%
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.kbc_main_container {
+  background: var(--bg_color--);
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.kbcHome {
+  width: 100%;
+  height: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.kbc_main_image img {
+  height: 30rem;
+  width: 30rem;
 }
 
-.App-link {
-  color: #61dafb;
+.kbcPlayBtn {
+  width: 20rem;
+  height: 5rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  font-weight: 500;
+  background: rgb(0, 33, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 33, 255, 1) 46%,
+    rgba(34, 5, 136, 1) 54%
+  );
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.kbcPlayBtn:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(39, 255, 0, 1) 20%,
+    rgba(7, 43, 3, 1) 48%,
+    rgba(7, 37, 4, 1) 56%,
+    rgba(26, 255, 0, 1) 100%
+  );
+}
+
+.kbcShareBtn {
+  width: 20rem;
+  height: 5rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  font-weight: 500;
+  background: rgb(0, 33, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 33, 255, 1) 46%,
+    rgba(34, 5, 136, 1) 54%
+  );
+}
+
+.kbcShareBtn:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(39, 255, 0, 1) 20%,
+    rgba(7, 43, 3, 1) 48%,
+    rgba(7, 37, 4, 1) 56%,
+    rgba(26, 255, 0, 1) 100%
+  );
+}
+
+.kbc_home_icon div {
+  font-size: 3rem;
+  /* height: 6rem; */
+  width: 10rem;
+  background: rgb(0, 33, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 33, 255, 1) 46%,
+    rgba(34, 5, 136, 1) 54%
+  );
+}
+
+.kbc_home_icon div:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(39, 255, 0, 1) 20%,
+    rgba(7, 43, 3, 1) 48%,
+    rgba(7, 37, 4, 1) 56%,
+    rgba(26, 255, 0, 1) 100%
+  );
 }

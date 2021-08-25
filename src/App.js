@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import './App.css';
+// import $ from 'jquery'
+import Home from "./components/Home";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container-fluid w-100 d-flex justify-content-center align-items-center kbc_main_container g-0">
+        <Home/>
+      </div>
+    </>
   );
 }
 
