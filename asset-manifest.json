@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/kbcGame/static/css/main.ed21ea32.chunk.css",
-    "main.js": "/kbcGame/static/js/main.cb42a270.chunk.js",
-    "main.js.map": "/kbcGame/static/js/main.cb42a270.chunk.js.map",
-    "runtime-main.js": "/kbcGame/static/js/runtime-main.702be7d7.js",
-    "runtime-main.js.map": "/kbcGame/static/js/runtime-main.702be7d7.js.map",
+    "main.css": "/kbcGame/static/css/main.876b9d98.chunk.css",
+    "main.js": "/kbcGame/static/js/main.e8ca2a6b.chunk.js",
+    "main.js.map": "/kbcGame/static/js/main.e8ca2a6b.chunk.js.map",
+    "runtime-main.js": "/kbcGame/static/js/runtime-main.10130801.js",
+    "runtime-main.js.map": "/kbcGame/static/js/runtime-main.10130801.js.map",
     "static/css/2.818011ed.chunk.css": "/kbcGame/static/css/2.818011ed.chunk.css",
-    "static/js/2.289b2eb2.chunk.js": "/kbcGame/static/js/2.289b2eb2.chunk.js",
-    "static/js/2.289b2eb2.chunk.js.map": "/kbcGame/static/js/2.289b2eb2.chunk.js.map",
-    "static/js/3.bdb642db.chunk.js": "/kbcGame/static/js/3.bdb642db.chunk.js",
-    "static/js/3.bdb642db.chunk.js.map": "/kbcGame/static/js/3.bdb642db.chunk.js.map",
+    "static/js/2.200a7ccc.chunk.js": "/kbcGame/static/js/2.200a7ccc.chunk.js",
+    "static/js/2.200a7ccc.chunk.js.map": "/kbcGame/static/js/2.200a7ccc.chunk.js.map",
+    "static/js/3.303428a5.chunk.js": "/kbcGame/static/js/3.303428a5.chunk.js",
+    "static/js/3.303428a5.chunk.js.map": "/kbcGame/static/js/3.303428a5.chunk.js.map",
     "index.html": "/kbcGame/index.html",
     "static/css/2.818011ed.chunk.css.map": "/kbcGame/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.ed21ea32.chunk.css.map": "/kbcGame/static/css/main.ed21ea32.chunk.css.map",
-    "static/js/2.289b2eb2.chunk.js.LICENSE.txt": "/kbcGame/static/js/2.289b2eb2.chunk.js.LICENSE.txt",
-    "static/media/gameMusic.892d38d2.mp3": "/kbcGame/static/media/gameMusic.892d38d2.mp3",
-    "static/media/kbcLogo1.fcaa96b1.png": "/kbcGame/static/media/kbcLogo1.fcaa96b1.png"
+    "static/css/main.876b9d98.chunk.css.map": "/kbcGame/static/css/main.876b9d98.chunk.css.map",
+    "static/js/2.200a7ccc.chunk.js.LICENSE.txt": "/kbcGame/static/js/2.200a7ccc.chunk.js.LICENSE.txt",
+    "static/media/50-50_2018-0.cbba5e99.png": "/kbcGame/static/media/50-50_2018-0.cbba5e99.png",
+    "static/media/ATA_2018-0.eda14c36.png": "/kbcGame/static/media/ATA_2018-0.eda14c36.png",
+    "static/media/DoubleDip.2f115be9.png": "/kbcGame/static/media/DoubleDip.2f115be9.png",
+    "static/media/gameImg.bc27271f.png": "/kbcGame/static/media/gameImg.bc27271f.png",
+    "static/media/kbcLogo1.fcaa96b1.png": "/kbcGame/static/media/kbcLogo1.fcaa96b1.png",
+    "static/media/switchTheQuestion.1bee1de3.png": "/kbcGame/static/media/switchTheQuestion.1bee1de3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.702be7d7.js",
+    "static/js/runtime-main.10130801.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.289b2eb2.chunk.js",
-    "static/css/main.ed21ea32.chunk.css",
-    "static/js/main.cb42a270.chunk.js"
+    "static/js/2.200a7ccc.chunk.js",
+    "static/css/main.876b9d98.chunk.css",
+    "static/js/main.e8ca2a6b.chunk.js"
   ]
 }
