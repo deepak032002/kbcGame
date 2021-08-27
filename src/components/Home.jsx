@@ -11,11 +11,12 @@ const Home = () => {
   // })
   const [isMusicOff, setIsMusicOff] = useState(false)
   const [playIcon, setPlayIcon] = useState("up")
+
   const handleMusic = ()=>{
     if(isMusicOff){
       setIsMusicOff(false)
       setPlayIcon('up')
-      document.getElementById('bgAudio').play()
+      // document.getElementById('bgAudio').play()
     }else{
       setIsMusicOff(true)
       setPlayIcon('off')

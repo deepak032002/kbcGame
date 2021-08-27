@@ -17,4 +17,8 @@ body{
   html{
     font-size: 55%;
   }
+
+  .gHeader .hr{
+    display: none;
+  }
 }
