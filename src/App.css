@@ -11,6 +11,13 @@
     rgba(4, 3, 77, 1) 75%,
     rgba(0, 16, 255, 1) 100%
   );
+
+  --bgClock: radial-gradient(
+    circle,
+    rgba(4, 3, 77, 1) 0%,
+    rgba(144, 50, 240, 1) 10%,
+    rgba(6, 5, 107, 1) 100%
+  );
 }
 
 .kbc_main_container {
@@ -130,7 +137,7 @@
   padding: 0 1rem;
 }
 
-.gHeader div .imgLogo img{
+.gHeader div .imgLogo img {
   height: 10rem;
   width: 10rem;
 }
@@ -151,19 +158,19 @@
   background: var(--bgGra);
 }
 
-.lifeLine{
+.lifeLine {
   width: 40rem;
 }
 
-.down{
+.down {
   display: none;
 }
 
-.top{
+.top {
   display: flex;
 }
 
-.lifeLine button{
+.lifeLine button {
   outline: none;
 }
 
@@ -172,7 +179,37 @@
   width: 8rem;
 }
 
-.gameImg{
+.gameImg {
   width: 60rem;
+}
+
+.clock {
+  height: 14rem;
+  width: 14rem;
+  border: 0.6rem solid white;
+  background: var(--bgClock);
+  font-size: 10rem;
+  color: #fff;
+  text-shadow: 0 0 1rem #0033ff;
+}
+
+.questions {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.question {
+  background: var(--bgGra);
+  color: #fff;
+  text-align: justify;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.opt {
+  background: var(--bgGra);
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
 }
 /* Game Ui Section  */
