@@ -15,11 +15,19 @@ body {
 
 @media screen and (max-width: 992px) {
   html {
-    font-size: 55%;
+    font-size: 50%;
   }
 
   .gHeader .hr {
     display: none;
+  }
+
+  .down{
+    display: flex !important;
+  }
+
+  .top{
+    display: none !important;
   }
 }
 
