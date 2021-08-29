@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
 
 html {
   font-size: 62.5%;
@@ -17,7 +17,7 @@ body {
   overflow: hidden;
 }
 
-code{
+code {
   text-transform: lowercase;
 }
 
@@ -30,11 +30,11 @@ code{
     display: none;
   }
 
-  .down{
+  .down {
     display: flex !important;
   }
 
-  .top{
+  .top {
     display: none !important;
   }
 }
@@ -43,4 +43,11 @@ code{
   html {
     font-size: 35%;
   }
+
+  .lgLvl {
+    position: absolute;
+    bottom: 0;
+    width: 100% !important;
+  }
+ 
 }

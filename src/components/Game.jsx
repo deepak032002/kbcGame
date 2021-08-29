@@ -1,12 +1,11 @@
 import React from "react";
-import fandf from "../image/50-50_2018-0.png";
-import ata from "../image/ATA_2018-0.png";
-import dd from "../image/DoubleDip.png";
-import stq from "../image/switchTheQuestion.png";
+import Level from './gameComponents/Level'
+import Lifeline from "./gameComponents/Lifeline";
+import gameImg from "./gameImg.png";
 import logo from "../kbcLogo1.png";
-import gameImg from "../image/gameImg.png";
 
 const Game = () => {
+
   return (
     <>
       <div className="w-100 g-0">
@@ -18,21 +17,7 @@ const Game = () => {
               <img src={logo} alt="logo" />
             </div>
             <p>₹0</p>
-
-            <div className="lifeLine top flex-row justify-content-between">
-              <button className="btn bg-transparent">
-                <img src={fandf} alt="50:50" />
-              </button>
-              <button className="btn bg-transparent">
-                <img src={ata} alt="ata" />
-              </button>
-              <button className="btn bg-transparent">
-                <img src={dd} alt="dd" />
-              </button>
-              <button className="btn bg-transparent">
-                <img src={stq} alt="stq" />
-              </button>
-            </div>
+            <Lifeline cls="top"/>
           </div>
         </div>
         {/* Game header */}
@@ -40,40 +25,28 @@ const Game = () => {
         {/* Game Section */}
         <div className="gSection my-4">
           <div className="row g-0">
-            <div className="col-4 d-flex justify-content-center align-items-center">
+            <div className="col-md-4 col-6 d-flex justify-content-center align-items-center">
               <div className="clock d-flex justify-content-center align-items-center rounded-circle">
                 45
               </div>
             </div>
-            <div className="col-4 d-flex justify-content-center align-items-center">
+            <div className="col-md-4 col-6 d-flex justify-content-center align-items-center">
               <img
                 className="gameImg img-thumbnail"
                 src={gameImg}
                 alt="Game Img"
               />
             </div>
-            <div className="col-4 "></div>
-          </div>
+            <div className="col-4 lgLvl justify-content-center align-items-center">
+              <Level/>
+            </div>
+          </div>          
         </div>
         {/* Game Section */}
 
         {/* Game Question Section */}
         <div className="gQuestion p-2 d-flex justify-content-center align-items-center flex-column">
-          <div className="lifeLine down flex-row justify-content-between">
-            <button className="btn bg-transparent">
-              <img src={fandf} alt="50:50" />
-            </button>
-            <button className="btn bg-transparent">
-              <img src={ata} alt="ata" />
-            </button>
-            <button className="btn bg-transparent">
-              <img src={dd} alt="dd" />
-            </button>
-            <button className="btn bg-transparent">
-              <img src={stq} alt="stq" />
-            </button>
-          </div>
-
+          <Lifeline cls="down" />
           <div className="questions my-3 d-flex justify-content-center align-items-center flex-column p-2">
             <div className="question d-flex justify-content-center align-items-center flex-column border p-3 rounded-pill">
               As per Asoka’s inscriptions, which among the following place was
